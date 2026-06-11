@@ -1,0 +1,10 @@
+{
+  "name": "operation-frontier",
+  "version": "1.0.0",
+  "description": "AAA Browser Battle Royale Game",
+  "scripts": {
+    "server": "cd server && node index.js",
+    "dev": "cd server && node index.js",
+    "install-deps": "cd server && npm install"
+  }
+}
