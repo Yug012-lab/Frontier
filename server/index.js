@@ -14,8 +14,8 @@ const io = new Server(server, {
 });
 
 // ─── Game Constants ───────────────────────────────────────────────────────────
-const MAP_SIZE = 2000;
-const ZONE_SHRINK_INTERVAL = 30000; // 30s
+const MAP_SIZE = 2500;
+const ZONE_SHRINK_INTERVAL = 120000; // 30s
 const LOOT_COUNT = 300;
 const BOT_COUNT = 20;
 const TICK_RATE = 64; // ms
