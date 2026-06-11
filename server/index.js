@@ -15,11 +15,11 @@ const io = new Server(server, {
 
 // ─── Game Constants ───────────────────────────────────────────────────────────
 const MAP_SIZE = 2500;
-const ZONE_SHRINK_INTERVAL = 120000; // 30s
+const ZONE_SHRINK_INTERVAL = 1200000; // 
 const LOOT_COUNT = 300;
 const BOT_COUNT = 20;
 const TICK_RATE = 64; // ms
-const PLAYER_SPEED = 50;
+const PLAYER_SPEED = 100;
 const BOT_SPEED = 4;
 const BULLET_SPEED = 60;
 const BULLET_DAMAGE = { AR: 30, Sniper: 80, SMG: 20, Shotgun: 60, Pistol: 25 };
