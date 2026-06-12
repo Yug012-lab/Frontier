@@ -348,11 +348,11 @@ class GameRoom {
   addPlayer(socketId, name) {
     // Find spawn in safe zone
     const angle = Math.random() * Math.PI * 2;
-    const dist = Math.random() * 400;
+   const dist = Math.random() * (this.zone.radius * 0.7);
     const id = socketId;
     this.players[id] = {
       id, socketId, name,
-      x: Math.cos(angle) * dist, y: 0, z: Math.sin(angle) * dist,
+      x: this.zone.x + Math.cos(angle) * dist, y: 0, z: this.zone.z + Math.sin(angle) * dist,
       rotation: 0, hp: 100, armor: 0,
       weapon: null, ammo: 0, loot: [],
       kills: 0, alive: true, inVehicle: null,
